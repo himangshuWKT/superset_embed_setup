@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  superset:
+    container_name: embedd_superset
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: embedd_superset
+    ports:
+      - "${SUPPORT_PORT}:${SUPPORT_PORT}"
+    environment:
+      - SUPERSET_SECRET_KEY=${SUPERSET_SECRET_KEY}
+      - SUPERSET_CONFIG_PATH=${SUPERSET_CONFIG_PATH}
+    env_file:
+      - .env
