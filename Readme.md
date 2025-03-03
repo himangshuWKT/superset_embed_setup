@@ -11,14 +11,14 @@ This repository contains the necessary configuration to set up and run an Apache
 ### 1. Clone the Repository
 Using HTTPS:
 ```sh
-git clone https://github.com/Himangshu4Das/embed_superset.git
+git clone https://github.com/himangshuWKT/superset_embed_setup.git
 ```
 
 or
 
 Using SSH:
 ```sh
-git clone git@github.com:Himangshu4Das/embed_superset.git
+git clone git@github.com:himangshuWKT/superset_embed_setup.git
 ```
 
 finally go to repository folder:

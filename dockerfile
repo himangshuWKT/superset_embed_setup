@@ -7,6 +7,9 @@ USER root
 # Install flask_cors
 RUN pip install flask_cors
 
+# Install support for athena
+RUN pip install PyAthena
+
 # Copy the custom Superset config file
 COPY superset_config.py /app/pythonpath/superset_config.py
 
